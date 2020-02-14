@@ -1,6 +1,6 @@
 const path = require('path');
 const webpackNodeExternals = require('webpack-node-externals');
-const { BundleStatsWebpackPlugin } = require('bundle-stats');
+const { BundleStatsWebpackPlugin } = require('bundle-stats-webpack-plugin');
 
 const baseConfig = {
 	entry: './src/index.js',
